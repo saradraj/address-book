@@ -1,0 +1,22 @@
+{
+  "name": "address-book",
+  "version": "1.0.0",
+  "description": "Address Book to get users list and their info",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saradraj/address-book.git"
+  },
+  "author": "Sarad Rajbhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saradraj/address-book/issues"
+  },
+  "homepage": "https://github.com/saradraj/address-book#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
