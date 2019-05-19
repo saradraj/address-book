@@ -14,13 +14,15 @@ const getUsers = () => {
       let users = data.results;
       return users.map(function(user) {
         let li = document.createElement("li"),
+         br = document.createElement("br"),
           image = document.createElement("img"),
           span = document.createElement("span");
 
         image.setAttribute("src", user.picture.medium);
         span.innerHTML = `${user.name.first} ${user.name.last}`;
-        append(li, span);
         append(li, image);
+        append(li, br);
+        append(li, span);
         append(ul, li);
       });
     });
