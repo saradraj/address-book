@@ -7,10 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Address Book</title>
     <style>
-    ul#all-users li {
-        display: inline-block;
-        margin-left: 1.5em;
-    }
+        ul#all-users li {
+            display: inline-block;
+            margin-left: 1.5em;
+        }
+
+        #btn {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -18,8 +31,8 @@
     <div style="text-align: center">
         <h1 style="font-family: 'Courier New', Courier, monospace">Address Book</h1>
         <input type="button" value="Get Users" id="btn" onclick="getUsers()" />
-            <ul id="all-users">
-            </ul>
+        <ul id="all-users">
+        </ul>
         <script type="text/javascript" src="main.js"></script>
     </div>
 
